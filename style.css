@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 0;
+  font-family: Permanent Marker;
+  margin-top: 100px;
+}
+.clockDisplay {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: Rampart One;
+}
+
+.timer-btn {
+  font-size: 30px;
+  border: none;
+  border-radius: 90px;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+.start:hover:enabled,
+:focus {
+  background-color: rgb(86, 216, 86);
+}
+
+.stop:hover:enabled,
+:focus {
+  background-color: rgb(245, 73, 73);
+}
